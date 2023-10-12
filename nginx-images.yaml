@@ -1,1 +1,1 @@
-nginx: "registry.cn-hangzhou.aliyuncs.com/hhyasdf/nginx"
+registry.k8s.io/ingress-nginx/controller:v1.9.1: xlong9527/ingress-nginx-controller
