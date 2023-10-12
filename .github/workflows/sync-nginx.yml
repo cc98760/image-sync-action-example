@@ -19,4 +19,5 @@ jobs:
           version: latest
           proc: 20
         env:
-          ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
